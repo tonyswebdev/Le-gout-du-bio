@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&display=swap');
+
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+
+
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.cc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner,
+.order-form {
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bannierebio.jpg) center center fixed
+     no-repeat;
+     height: 800px;
+     background-size: cover;
+}
+
+.order-form{
+    height: 500px;
+}
+
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+.cc-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/banniere4.jpg) center center fixed
+    no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order{
+    background-color: var(--bs-teal);
+   
+    /*color: #fff;*/
+    color: black;
+    /*color:var(--bs-teal);*/
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    
+   background-color:grey;
+}
+
+.cc-menu{
+    margin-top: 10px;
+    height: 1300px;
+}
+
+.col-12{
+    margin-top: 10px;
+    /*margin-left: 50px;*/
+}
+
+.card-title{
+    margin-top: 10px;
+}
+
+.titre{
+    text-decoration:underline;
+    text-align: center;
+    
+    color: #fff;
+}
+
+.container-appli{
+    margin-top: -50px;
+    height: 1000px;
+    background-color: rgb(19, 202, 132);
+}
+
+.autre{
+    color: black;
+}
+
+.col-6{
+   margin-top: 50px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+#selectVille{
+    margin-top: -35px;
+    margin-left: 320px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+
+
+@media (max-width: 376px){
+     #selectVille{
+        margin-left: 100px;
+     }
+    .container-appli{
+        margin-top: -50px;
+        height: 215px;
+        background-color: rgb(19, 202, 132);
+    }
+    .col-12{
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+    #selectVille{
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 991px) {
+    #selectVille{
+        margin-left: 210px;
+    }
+}
+@media (max-width: 767px) {
+    #selectVille{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 280px) {
+    #selectVille{
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 540px) {
+    #selectVille{
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 412px) {
+    #selectVille{
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 412px) {
+    .col-12{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 360px) {
+    .col-12{
+        margin-left: 30px;
+    }
+}
+
+
